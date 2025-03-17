@@ -9,9 +9,9 @@ on:
         required: true
         type: string
 
-# permissions:
-#   id-token: write
-#   contents: read
+permissions:
+  id-token: write
+  contents: read
 
 defaults:
   run:
